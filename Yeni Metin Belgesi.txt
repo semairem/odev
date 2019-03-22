@@ -1,3 +1,13 @@
 Scanner scanner=new Scanner(System.in);
 int harf=scanner.nextInt;
 int kelime=scanner.nextInt;
+String[] alfabe=new String[25];
+for(int i=0; i<=alfabe.length; i++) {
+	for(int baslangic=65; baslangic<=alfabe.length; baslangýc++){
+		char atamaHarf= baslangic.charAt();
+		alfabe[i]=atamaHarf;
+}
+}
+Random uretilecekSayi=new Random();
+int uretilecekSayiyiDonusturme=uretilecekSayi.Next(65,91);
+
